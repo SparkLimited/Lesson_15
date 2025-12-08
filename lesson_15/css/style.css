@@ -74,9 +74,9 @@
 
 /*=========== Adaptive ============= */
 
-@media (max-width: 1199.98) {
+@media (max-width: 1199.98px) {
     .section-products__card {
-        flex-basis: calc(25% +1px);
+        flex-basis: calc(25% + 1px);
         flex-grow: 0;
     }
 }
@@ -262,7 +262,7 @@ body {
 }
 
 .section-products__card {
-    flex-basis: calc(20% +1px);
+    flex-basis: calc(20% + 1px);
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -274,7 +274,7 @@ body {
 }
 
 .section-products__card::before {
-    content: 1"";
+    content: "";
     border: 1px solid #2C742F;
     position: absolute;
     top: -1px;
